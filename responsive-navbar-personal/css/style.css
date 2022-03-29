@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    height: 70px;
+}
+
+.free a:hover{
+color: rgb(25, 0, 255);
+border: 2px rgb(143, 140, 140) solid;
+
+}
+
+.free-li{
+    display: inline-flex;
+    padding-top: 3px;
+    margin-left: 5px;
+    
+}
+
+/* .nav-li-left a:hover{
+    background-color: orange;
+} */
+
+
+.free{
+    background-color: silver;
+    height: 40px;
+}
+#free{
+    margin-right: 20px;
+}
+
+.free-ul{
+    margin: 0 20px 0 44%;
+}
+
+.nav-ul-left{
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.nav-li-left{
+display: inline;
+margin-left: 10px;
+
+}
+
+.nav-li-right{
+    display: inline;
+    margin-left: 10px;
+}
+
+.nav-ul-right{
+margin: -9px 3% 0 69%;
+}
+
+#search2{
+    margin-left: 3px;
+}
+
+
+
+@media screen and (max-width:1151px) {
+    
+
+
+.free-ul{
+    margin: 0 12px 0 23%;
+}
+
+.free a{
+    color: white;
+}
+
+.free{
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
+
+}
+
+.nav-ul-right{
+    margin: -40px 2% 0 60%;
+    }
+
+    
+
+    nav {
+        height: 100%; 
+        width: 260px;
+        position: fixed; 
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgba(17, 17, 17, 0.267);
+        overflow-x: hidden;
+        padding-top: 20px;
+        margin-top: 40px;
+      }
+      
+      nav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #888787;
+        display: block;
+      }
+      
+      .nav-ul-right{
+        margin: 10% 0 0 0;
+        }  
+    
+    .item{
+        width: 180px;
+        height: 25px;
+        color: orange;
+        
+    }
+      nav .nav-li-left a:hover {
+        color: #ffffff;
+      }
+    
+      nav .nav-li-right a:hover {
+        color: orange;
+      }
+    
+      .item:hover {
+        background-color: orange;
+        color: white;
+      }
+    
+ 
+    
+      #search2{
+    display: none;  
+    }
+    }
+
+
+@media screen and (max-width:860px) {
+    .nav-ul-right{
+        margin: 10% 2% 0 0;
+        }   
+        
+        .free{
+display: none;        }
+
+nav{
+    margin-top: 0px;
+}
+}
+
+
